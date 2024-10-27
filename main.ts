@@ -1,0 +1,5 @@
+scene.setBackgroundImage(assets.image`forestTree1`)
+tiles.setCurrentTilemap(tilemap`nivel12`)
+let jugador1 = sprites.create(assets.image`consumidorSecundario`, SpriteKind.Player)
+scene.cameraFollowSprite(jugador1)
+controller.moveSprite(jugador1)
